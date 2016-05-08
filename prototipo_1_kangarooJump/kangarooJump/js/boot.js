@@ -1,3 +1,9 @@
+
+
+
+/*
+* boot inicializacion
+ */
 var boot = function(game){
 	console.log("%cStarting Kangaroo Jump", "color:white; background:red");
 };

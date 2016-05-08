@@ -18,7 +18,7 @@ gameTitle.prototype = {
 		/*
 		Añadir funcionalidad al boton de Jugar para que entre al siguiente estado de juego
 		mediante la funcion playTheGame 
-		 */
+		*/
 		var playButton = this.game.add.button(160,390,"play",this.playTheGame,this);
 		playButton.scale.set(0.7);
 		playButton.anchor.setTo(0.5,0.5);

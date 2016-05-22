@@ -22,9 +22,11 @@ boot.prototype = {
   		el juego se escala para adaptarse a los distintos dispositivos
   		y se inicia el estado de Preload
   		 */
-		this.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
-		this.scale.pageAlignHorizontally = true;
-		this.scale.setScreenSize();
+		game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
+		game.scale.pageAlignHorizontally = true;
+		game.scale.setScreenSize();
+		
 		this.game.state.start("Preload");
+		
 	}
 }

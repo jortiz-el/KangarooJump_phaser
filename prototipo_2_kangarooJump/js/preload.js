@@ -17,8 +17,9 @@ preload.prototype = {
 	  	var title = this.add.sprite(160,190,"gametitle");
 	  	title.anchor.setTo(0.5,0.5);
 	  	title.scale.set(0.5);
-		  title.smoothed = false;
+		title.smoothed = false;
 	  	
+	  	//imagenes
 	  	this.game.load.image("background","assets/background.png");
 	  	this.game.load.image("desert","assets/desert.png");
 	  	this.game.load.image("cloud","assets/cloud.png");
@@ -27,6 +28,14 @@ preload.prototype = {
 	    this.game.load.image("pole","assets/pole.png");
 	    this.game.load.image("powerbar","assets/powerbar.png");
 	  	this.game.load.image("kangoo","assets/kangoo.png");
+	  	this.game.load.image("lava1","assets/lava1.png");
+	  	this.game.load.image("lava2","assets/lava2.png");
+	  	this.game.load.image("bg","assets/bg.png");
+	  	this.game.load.spritesheet("btnGameMusic","assets/btnSound.png", 115, 110);
+	  	//sonidos
+	  	game.load.audio('sfx', 'assets/audio/Small Fireball-SoundBible.com-1381880822.mp3');
+	  	game.load.audio('gameMusic', 'assets/audio/bodenstaendig_2000_in_rock_4bit.mp3');
+	  	game.load.audio('btnSound', 'assets/audio/pickup.wav');
 
 		
 	},
